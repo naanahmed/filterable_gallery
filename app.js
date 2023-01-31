@@ -1,8 +1,6 @@
-(function(){
-       
+(function(){   
     const buttons = document.querySelectorAll('.button')
     const storeImages = document.querySelectorAll('.store-item')
-
     buttons.forEach((button) => {
         button.addEventListener('click', (e) =>{
             e.preventDefault()
@@ -21,6 +19,5 @@
                 }
             })
         })
-    })
-    
+    })    
 })()
