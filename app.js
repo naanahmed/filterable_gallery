@@ -1,6 +1,6 @@
 (function(){
        
-    const buttons = document.querySelectorAll('.btn')
+    const buttons = document.querySelectorAll('.button')
     const storeImages = document.querySelectorAll('.store-item')
 
     buttons.forEach((button) => {
